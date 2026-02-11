@@ -7,26 +7,22 @@
 <body>
 
 <h3>Task 3: PHP Output</h3>
-
 <?php
-echo 'Hello world! My name is Katarina';
+echo 'Hello world! My name is "Katarina"';
 ?>
 
 <h3>Task 3: PHP Variable</h3>
-
 <?php
 $title = "PHP is interesting.";
 echo "<h4>$title</h4>";
 ?>
 
 <h3>Task 3: Student Grades</h3>
-
 <?php
 $g1 = 5;
 $g2 = 4;
 $g3 = 5;
 ?>
-
 <table border="1" cellpadding="5">
     <tr>
         <th>S.n.</th>
@@ -55,4 +51,3 @@ $g3 = 5;
 
 </body>
 </html>
-
