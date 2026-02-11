@@ -2,6 +2,9 @@
 <html>
 <head>
     <title>Assignments of Web Programming</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
     <style>
 
     html, body {
@@ -120,9 +123,11 @@
         <a href="aboutus.php">About Me</a>
         <a href="contactus.php">Contact</a>
         <a href="exercises.php">Exercises</a>
+        <a href="ex3.php">Exercise 3</a>
     </nav>
 
     <main>
+
 
 
 

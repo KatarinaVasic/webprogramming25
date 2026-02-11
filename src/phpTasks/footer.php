@@ -1,8 +1,13 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Katarina Vasic. All rights reserved.</p>
+        <?php
+            $filename = basename($_SERVER['PHP_SELF']);
+            $modified = date("F d Y H:i:s", filemtime($filename));
+            echo "Last modified: $modified";
+        ?>
     </footer>
 
 </body>
 </html>
+
